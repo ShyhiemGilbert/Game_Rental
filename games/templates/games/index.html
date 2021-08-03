@@ -1,29 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<table class="table">
-    <thead>
-    <tr>
-        <th>Title</th>
-        <th>Genre</th>
-        <th>Stock</th>
-        <th>Daily Rate</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for game in games %}
+{% extends 'games/base.html' %}
+{% block content %}
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    <table class="table">
+        <thead>
         <tr>
-            <td>{{ game.title }}</td>
-            <td>{{ game.genre }}</td>
-            <td>{{  game.number_in_stock }}</td>
-            <td>{{ game.daily_rate }}</td>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Stock</th>
+            <th>Daily Rate</th>
         </tr>
-    {% endfor %}
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+        {% for game in games %}
+            <tr>
+                <td>{{ game.title }}</td>
+                <td>{{ game.genre }}</td>
+                <td>{{ game.number_in_stock }}</td>
+                <td>{{ game.daily_rate }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
 </body>
 </html>

@@ -7,4 +7,4 @@ from .models import Game
 
 def index(request):
     games = Game.objects.all()  # SELECT * FROM games_game
-    render(request, 'games/index.html', {'games': games})
+    return render(request, 'games/index.html', {'games': games})
