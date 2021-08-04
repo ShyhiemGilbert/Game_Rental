@@ -16,10 +16,13 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from api.models import GameResource
 
+game_resource = GameResource()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('games/', include('games.urls')),
+    path('api/', include(game_resource.urls))
 
 ]
