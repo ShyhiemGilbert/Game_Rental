@@ -1,0 +1,1 @@
+web: gunicorn Game4Rent.wsgi
