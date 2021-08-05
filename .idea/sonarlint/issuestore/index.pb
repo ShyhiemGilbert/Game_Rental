@@ -9,8 +9,6 @@ Z
 0games/migrations/0003_alter_game_date_created.py,6/2/62d3498fce7b829602dfcf4ce275db08cb164b33
 9
 	manage.py,3/1/3156ad13e4d695cd526bbb7b031016ecba842270
-F
-Games4Rent/__init__.py,6/7/67b4a0ce9a001579de1f260533d519ebca29320b
 C
 templates/base.html,d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3
 B
