@@ -11,8 +11,6 @@ Z
 	manage.py,3/1/3156ad13e4d695cd526bbb7b031016ecba842270
 F
 Games4Rent/__init__.py,6/7/67b4a0ce9a001579de1f260533d519ebca29320b
-B
-Games4Rent/wsgi.py,2/7/27a8d287035d64106346c7548d91a4b69d6baf57
 C
 templates/base.html,d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3
 B
