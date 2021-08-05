@@ -9,3 +9,4 @@ class GameResource(ModelResource):
     class Meta:
         queryset = Game.objects.all()
         resource_name = 'games'
+        excludes = ['date_created'] # hides date created
