@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'games.apps.GamesConfig',
     'api.apps.ApiConfig',
+    'catalog'
 ]
 
 MIDDLEWARE = [
