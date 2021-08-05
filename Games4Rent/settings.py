@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-o^$1w!7=76lz0c2hc)=6-5lp3_pr-lo#@-(v_iusu%cuw91v#)
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'evening-gorge-02213.herokuapp.com'
+    'evening-gorge-02213.herokuapp.com',
+    '127.0.0.1'
 ]
 
 # Application definition
