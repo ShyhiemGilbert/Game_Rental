@@ -9,8 +9,6 @@ Z
 0games/migrations/0003_alter_game_date_created.py,6/2/62d3498fce7b829602dfcf4ce275db08cb164b33
 9
 	manage.py,3/1/3156ad13e4d695cd526bbb7b031016ecba842270
-C
-templates/base.html,d/a/da7c237b85a69c00a9ab8c189bf63e22070fcac3
 B
 Games4Rent/asgi.py,b/d/bde849a8aaf1aa49d36123f04d66e9d5392effca
 =
